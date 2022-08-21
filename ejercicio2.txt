@@ -1,5 +1,22 @@
-aaaaaaaaaaaaaaa
 
 MODIFICACION 
 
-FVFVFVFVFV
+public class principal
+    public static void main (string[]args) {
+        int vida, rp;
+        boolean fl=false;
+        vida=0;
+        scanner sc=new scanner(system.in;
+        do {
+            vida ++;
+            system.out.println("vida:"+ vida +"\t¿cual es el numero secreto?");
+            rp=sc.nextint();
+            if(rp==1234)
+                fl=true;
+        
+        }while(vida<3&&!fl);
+        if(fl==true)
+            system.out.println("adivinaste");
+        else
+            system.out.println("ups,perdiste...");
+    }
